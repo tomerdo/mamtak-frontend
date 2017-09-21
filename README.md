@@ -1,8 +1,8 @@
 Welcome to the Mamtak repo - open source project for Bank account responsibility managing
 
-link to the Backend repo: https://github.com/assafdev/mamtak-backend
+link to the Backend repo: https://github.com/assafdev/mamtak-backend.
 
-all the issue tracking for both repositories is on this repository.
+All the issues for both repositories is on this repository.
 
 
 ![](http://i.imgur.com/CqXcsZ9.png)
