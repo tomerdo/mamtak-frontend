@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['@angular/core', './config.service', './AccountsResponsibility'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,21 +10,32 @@ System.register(['angular2/core'], function(exports_1, context_1) {
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1;
+    var core_1, config_service_1, AccountsResponsibility_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
+            },
+            function (config_service_1_1) {
+                config_service_1 = config_service_1_1;
+            },
+            function (AccountsResponsibility_1_1) {
+                AccountsResponsibility_1 = AccountsResponsibility_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.mainHeading = config_service_1.Config.MAIN_HEADING;
+                    this.responsibilityAreas = [
+                        new AccountsResponsibility_1.AccountsResponsibility(1, "Tel Aviv North", "Yotam", 22, 28, 5360, "etc.."),
+                        new AccountsResponsibility_1.AccountsResponsibility(2, "Tel Aviv South", "Dvir", 18, 21, 5361, "etc..")
+                    ];
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<h1>Angular 2 Template, hey yoooo</h1>'
+                        templateUrl: 'app/ts/app.component.html',
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
