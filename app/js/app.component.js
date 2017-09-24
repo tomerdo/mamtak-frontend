@@ -1,4 +1,4 @@
-System.register(['@angular/core', './config.service', './AccountsResponsibility'], function(exports_1, context_1) {
+System.register(['@angular/core', './config.service', './accounts-responsibility'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['@angular/core', './config.service', './AccountsResponsibility'
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, config_service_1, AccountsResponsibility_1;
+    var core_1, config_service_1, accounts_responsibility_1;
     var AppComponent;
     return {
         setters:[
@@ -20,16 +20,17 @@ System.register(['@angular/core', './config.service', './AccountsResponsibility'
             function (config_service_1_1) {
                 config_service_1 = config_service_1_1;
             },
-            function (AccountsResponsibility_1_1) {
-                AccountsResponsibility_1 = AccountsResponsibility_1_1;
+            function (accounts_responsibility_1_1) {
+                accounts_responsibility_1 = accounts_responsibility_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
                     this.mainHeading = config_service_1.Config.MAIN_HEADING;
                     this.responsibilityAreas = [
-                        new AccountsResponsibility_1.AccountsResponsibility(1, "Tel Aviv North", "Yotam", 22, 28, 5360, "etc.."),
-                        new AccountsResponsibility_1.AccountsResponsibility(2, "Tel Aviv South", "Dvir", 18, 21, 5361, "etc..")
+                        new accounts_responsibility_1.AccountsResponsibility(1, "Tel Aviv North", "Yotam", 22, 28, 5360, "etc.."),
+                        new accounts_responsibility_1.AccountsResponsibility(2, "Tel Aviv South", "Dvir", 18, 21, 5361, "etc.."),
+                        new accounts_responsibility_1.AccountsResponsibility(3, "Modiin N + S", "Yoray", 18, 32, 5364, "taka")
                     ];
                 }
                 AppComponent = __decorate([

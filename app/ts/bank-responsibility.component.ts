@@ -1,10 +1,10 @@
 import {Component , Input} from '@angular/core';
-import {AccountsResponsibility} from './AccountsResponsibility';
+import {AccountsResponsibility} from './accounts-responsibility';
 
 
 @Component({
     selector: 'bank-table',
-    templateUrl: 'app/ts/BankResponsibility.component.html',
+    templateUrl: 'app/ts/bank-responsibility.component.html',
 })
 
 export class BankResponsibilityComponent{
