@@ -30,7 +30,7 @@ System.register(['@angular/core', './config.service', './accounts-responsibility
                     this.responsibilityAreas = [
                         new accounts_responsibility_1.AccountsResponsibility(1, "Tel Aviv North", "Yotam", 22, 28, 5360, "etc.."),
                         new accounts_responsibility_1.AccountsResponsibility(2, "Tel Aviv South", "Dvir", 18, 21, 5361, "etc.."),
-                        new accounts_responsibility_1.AccountsResponsibility(3, "Modiin N + S", "Yoray", 18, 32, 5364, "taka")
+                        new accounts_responsibility_1.AccountsResponsibility(3, "Modiin N + S", "Yoray", 18, 32, 5364, "etc..")
                     ];
                 }
                 AppComponent = __decorate([
