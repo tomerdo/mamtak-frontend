@@ -9,4 +9,8 @@ import {AccountsResponsibility} from './accounts-responsibility';
 
 export class BankResponsibilityComponent{
      @Input() responsibilityAreas: AccountsResponsibility[] = [];
+
+     openAddWindow() {
+         window.open('app/ts/add.component.html');
+     }
 }
