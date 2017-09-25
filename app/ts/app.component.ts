@@ -13,7 +13,7 @@ import { AccountsResponsibilityService } from './accounts-responsibility.service
 export class AppComponent  implements OnInit{
     mainHeading = Config.MAIN_HEADING;
     responsibilityAreas: AccountsResponsibility[];
-
+  
     constructor(private accountsResponsibilityService: AccountsResponsibilityService){
     }
 
