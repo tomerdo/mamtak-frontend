@@ -6,23 +6,25 @@
     "minCreditValue": 5,
     "maxCreditValue": 10,
     "moneyChannel" :313123,
-    "otherNotes": "aca"
+    "otherNotes": "aca",
+     "supervisedAccounts": []
     },
     {
     "id" : 1,
     "accountsArea": "TLV S", 
-    "adminName" : "Zozo",
+    "adminName" : "Mr. Power",
     "minCreditValue": 0,
     "maxCreditValue": 5,
-    "moneyChannel" :313123,
-    "otherNotes": "aca"
+    "moneyChannel" :4023,
+    "otherNotes": "aca",
+     "supervisedAccounts": []
     },
     { 
         "id": 2,
          "accountsArea": "Tzefet N",
          "adminName": "Mr. Nice", 
          "minCreditValue": 30 ," minCreditValue": 23 , "maxCreditValue": 32
-        , "moneyChannel": 5031 , "otherNotes": "etc.."},
+        , "moneyChannel": 5031 , "otherNotes": "etc.." ,  "supervisedAccounts": []},
 
     { 
         "id": 3, 
@@ -30,6 +32,8 @@
          "adminName": "Mr. Pink" , 
          "minCreditValue": 13 
          , "maxCreditValue": 23
-    , "moneyChannel": 5030 , "otherNotes": "etc.."}
+    , "moneyChannel": 5030 , "otherNotes": "etc..",
+     "supervisedAccounts": []
+}
 
 ]
