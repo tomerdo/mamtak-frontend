@@ -18,7 +18,7 @@ export class AppComponent  implements OnInit{
     }
 
     getResponsibilities(): void {
-        this.accountsResponsibilityService.getAccountsResponsibility().then(r => this.responsibilityAreas = r);
+        this.accountsResponsibilityService.getAccountsResponsibilityFromHttp().subscribe(responseData => this.responsibilityAreas = responseData);
     }
 
     ngOnInit(): void {

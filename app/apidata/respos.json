@@ -1,0 +1,35 @@
+[   
+    {
+    "id" : 0,
+    "accountsArea": "TLV N", 
+    "adminName" : "Zozo",
+    "minCreditValue": 5,
+    "maxCreditValue": 10,
+    "moneyChannel" :313123,
+    "otherNotes": "aca"
+    },
+    {
+    "id" : 1,
+    "accountsArea": "TLV S", 
+    "adminName" : "Zozo",
+    "minCreditValue": 0,
+    "maxCreditValue": 5,
+    "moneyChannel" :313123,
+    "otherNotes": "aca"
+    },
+    { 
+        "id": 2,
+         "accountsArea": "Tzefet N",
+         "adminName": "Mr. Nice", 
+         "minCreditValue": 30 ," minCreditValue": 23 , "maxCreditValue": 32
+        , "moneyChannel": 5031 , "otherNotes": "etc.."},
+
+    { 
+        "id": 3, 
+        "accountsArea": "Tzefet S",
+         "adminName": "Mr. Pink" , 
+         "minCreditValue": 13 
+         , "maxCreditValue": 23
+    , "moneyChannel": 5030 , "otherNotes": "etc.."}
+
+]

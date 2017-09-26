@@ -31,7 +31,7 @@ System.register(['@angular/core', './config.service', './accounts-responsibility
                 }
                 AppComponent.prototype.getResponsibilities = function () {
                     var _this = this;
-                    this.accountsResponsibilityService.getAccountsResponsibility().then(function (r) { return _this.responsibilityAreas = r; });
+                    this.accountsResponsibilityService.getAccountsResponsibilityFromHttp().subscribe(function (responseData) { return _this.responsibilityAreas = responseData; });
                 };
                 AppComponent.prototype.ngOnInit = function () {
                     this.getResponsibilities();
