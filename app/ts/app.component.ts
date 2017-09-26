@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {Config} from './config.service';
-import {AccountsResponsibility} from './accounts-responsibility';
+import {AccountsResponsibility} from './accounts.responsibility';
 
 @Component({
     selector: 'my-app',

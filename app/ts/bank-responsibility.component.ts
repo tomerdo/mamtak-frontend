@@ -1,5 +1,5 @@
 import {Component , Input} from '@angular/core';
-import {AccountsResponsibility} from './accounts-responsibility';
+import {AccountsResponsibility} from './accounts.responsibility';
 
 
 @Component({
